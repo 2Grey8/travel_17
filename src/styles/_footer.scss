@@ -1,0 +1,150 @@
+.footer {
+    &__top {
+        width: 192rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 6.8rem;
+        padding-bottom: 6.7rem;
+        border-bottom: 1px solid #494949;
+        border-radius: 30px 30px 0px 0px;
+        background: #222;
+    }
+
+    &__logo {
+        display: block;
+        width: 159px;
+        height: 58px;
+    }
+
+    &__box {
+        width: 41rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: first baseline;
+        gap: 2.1rem;
+        color: #fff;
+    }
+
+    &__text {
+        display: block;
+        width: 16rem;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 0.2px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    &__form {
+        display: block;
+        width: 24rem;
+        color: #737373;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        position: relative;
+
+        &::after {
+            content: "";
+            display: block;
+            width: 22px;
+            height: 24px;
+            background-image: url(../images/mail.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: .8rem;
+            left: 1.5rem;
+        }
+    }
+
+    &__input {
+        display: block;
+        width: 100%;
+        padding-left: 4.9rem;
+        padding-top: 1.1rem;
+        padding-right: 9.8rem;
+        padding-bottom: 1.3rem;
+        background-color: #222;
+        border-radius: 30px;
+        border: 1px solid #FFF;
+    }
+
+    &__img {
+        display: block;
+        width: 11px;
+        height: 11px;
+        position: absolute;
+        top: 1.5rem;
+        left: 20rem;
+    }
+
+    &__nav {
+        width: 192rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 4.7rem;
+        padding-bottom: 5rem;
+        padding-left: 30rem;
+        padding-right: 30rem;
+        background-color: #222;
+        border-bottom: 1px solid #494949;
+    }
+
+    &__item {
+        display: block;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    &__wrap {
+        display: block;
+        padding-top: 4.2rem;
+        padding-bottom: 3rem;
+        background-color: #222;
+    }
+
+    &__iconBox {
+        width: 12.6rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        gap: 4.3rem;
+        background-color: #222;
+    }
+
+    &__icon {
+        display: block;
+        width: 32px;
+        height: 32px;
+    }
+
+    &__copyright {
+        display: block;
+        margin: 0 auto;
+        color: #525252;
+        padding-bottom: 5rem;
+        background-color: #222;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+}

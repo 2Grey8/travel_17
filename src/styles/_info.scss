@@ -1,0 +1,199 @@
+.info {
+    &__title {
+        width: 82rem;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        color: #1C1C1C;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    &__subtitle {
+        width: 13rem;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 8rem;
+        color: #A1A1A1;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 26px;
+        /* 162.5% */
+
+        &_2 {
+            display: block;
+            width: 14rem;
+            color: #1C1C1C;
+            font-weight: 400;
+        }
+    }
+
+    &__logo {
+        display: block;
+        width: 1920px;
+        height: 879px;
+        margin: 0 auto;
+        margin-bottom: 2.5rem;
+    }
+
+    &__text {
+        width: 92.8rem;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 4.2rem;
+        color: #1C1C1C;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 26px;
+        text-align: left;
+        /* 162.5% */
+
+        &_2 {
+            padding-bottom: 7rem;
+            border-bottom: 1px solid #D4D4D4;
+        }
+    }
+
+    &__group {
+        width: 112rem;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin: 0 auto;
+        margin-bottom: 5rem;
+        gap: 3.2rem;
+    }
+
+    &__box {
+        width: 58.3rem;
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__name {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        color: #1C1C1C;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        /* 162.5% */
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+    &__paragraph {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 4.2rem;
+        color: #1C1C1C;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 26px;
+        text-align: left;
+        /* 162.5% */
+
+        &_1 {
+            width: 46rem;
+        }
+
+        &_2 {
+            width: 45rem;
+        }
+    }
+
+    &__img {
+        display: block;
+        width: 555px;
+        height: 417px;
+
+        &_3 {
+            width: 1120px;
+            height: 440px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 5rem;
+        }
+    }
+
+    &__link {
+        width: 21rem;
+        display: block;
+        margin-left: 10rem;
+        margin-bottom: 1.8rem;
+        color: #1C1C1C;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 162.5% */
+        text-transform: uppercase;
+        text-align: left;
+        position: relative;
+
+        &::before {
+            content: "";
+            display: block;
+            width: 3.4rem;
+            height: 3.4rem;
+            background-image: url(../images/airplane.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: -.4rem;
+            left: -5rem;
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            width: 4.2rem;
+            height: 4.2rem;
+            background-color: #F8F8F8;
+            border-radius: 50%;
+            position: absolute;
+            top: -.7rem;
+            left: -5.5rem;
+            z-index: -1;
+        }
+    }
+
+    &__links {
+        width: 30rem;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 7rem;
+        gap: 1.8rem;
+    }
+
+    &__iconBox {
+        width: 13rem;
+        display: flex;
+        justify-content: center;
+        margin-top: -.5rem;
+        gap: 1.6rem;
+    }
+
+    &__icon {
+        display: block;
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+}
